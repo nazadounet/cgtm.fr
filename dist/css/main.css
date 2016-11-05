@@ -1,0 +1,105 @@
+.logo{
+    display: inline-block;
+    margin-left: 0;
+    margin-top:-4%;
+    width:30%;
+}
+
+.div-ico-logo-center{
+ text-align: center;
+}
+.img-engrenage{
+    display:inline-block; width: 100px; margin-top: -40px;
+}
+h3{
+    margin-top: 10%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.text_des{
+    margin-top:5%;
+}
+
+.btn-contact{
+    margin-top: 3%;
+    text-align: center;
+}
+.text-btn-color{
+    color: white;
+}
+.btn-color{
+    background: black;
+}
+
+.form-main{
+    margin-top: 5%;
+}
+.div-alert{
+    margin-top:1%;
+}
+
+
+div.g-recaptcha {
+    margin: 0 auto;
+    width: 304px;
+}
+
+@media all and (max-width: 1024px){
+
+    .logo{
+        margin-top:-4%;
+        width:40%;
+    }
+
+  .slogan{
+      margin-top:-5%;
+      width:30%;
+  }
+
+    h3{
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .text_des{
+        margin-top:5%;
+    }
+
+    .btn-contact{
+        margin-top: 3%;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-device-width: 480px)
+{
+    .logo{
+        margin-top:-10%;
+        width:60%;
+    }
+
+    .slogan{
+        margin-top:-11%;
+        width:40%;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-top: 8%;
+        text-align: center;
+    }
+    .text_des{
+        margin-top:10%;
+    }
+
+    .btn-contact{
+        padding-bottom: 20px;
+    }
+
+
+}
